@@ -1,4 +1,4 @@
 Sandbox
 -------
 
-a repo for learning git and try out various commands
+a repo for learning git and trying out various commands
