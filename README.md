@@ -16,6 +16,7 @@ git commit -m "made improvements" # commits changes in bar.txt to current branch
 git push origin improvements # pushes the local improvements branch to the remote named 'origin'
 git checkout master # switches back to master
 git stash pop # pulls out all the changes from the last stash into the working tree, and deletes the stash
+git checkout bar.txt # undoes changes on bar.txt (the changes were in the stash)
 finish work on foo.txt
 git commit -am "finally got foo.txt working" # commits foo.txt to local master branch
 git push # pushes foo.txt to master branch on origin remote
