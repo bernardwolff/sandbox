@@ -21,3 +21,15 @@ finish work on foo.txt
 git commit -am "finally got foo.txt working" # commits foo.txt to local master branch
 git push # pushes foo.txt to master branch on origin remote
 ```
+
+###Branches
+To create a new branch:
+```bash
+git checkout -b <branchName>
+git push origin <branchName>
+```
+
+To delete a remote branch:
+```bash
+git push origin --delete <branchName>
+```
