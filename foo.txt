@@ -1,0 +1,1 @@
+we want to keep pending changes from this file in the working tree, and not commit them
