@@ -8,7 +8,8 @@ a repo for learning git and trying out various commands
 foo.txt - changes in this file should stay in the working tree
 bar.txt - changes in this file should go to a remote branch named 'improvements'
 
-```git stash # puts all files into a stash, and undoes changes in the working tree
+```bash
+git stash # puts all files into a stash, and undoes changes in the working tree
 git checkout stash@{0} -- bar.txt # pulls out just the file that you want to put in the branch
 git checkout -b improvements # creates a new branch named 'improvements' and switches to it
 git commit -m "made improvements" # commits changes in bar.txt to current branch (improvements)
